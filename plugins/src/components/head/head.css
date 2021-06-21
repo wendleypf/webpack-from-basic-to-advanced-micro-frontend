@@ -1,0 +1,10 @@
+/*
+ * @author wendleypf <wendleypf@gmail.com>
+ */
+.title {
+  background-color: darkblue;
+  color: #999;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #333;
+}
