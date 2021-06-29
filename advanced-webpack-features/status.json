@@ -1,0 +1,2281 @@
+{
+  "hash": "058af34dfb805a3ba38d",
+  "version": "5.41.0",
+  "time": 2753,
+  "builtAt": 1624931646151,
+  "publicPath": "auto",
+  "outputPath": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\dist",
+  "assetsByChunkName": {
+    "index": [
+      "index.js"
+    ],
+    "test": [
+      "test.js"
+    ],
+    "shared": [
+      "shared.js"
+    ],
+    "runtime~shared": [
+      "runtime~shared.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "shared.js",
+      "size": 70531,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "shared.js.LICENSE.txt"
+        },
+        "size": 70531
+      },
+      "chunkNames": [
+        "shared"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "shared.js.LICENSE.txt",
+          "size": 336,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 336
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        712
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime~shared.js",
+      "size": 1146,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 1146
+      },
+      "chunkNames": [
+        "runtime~shared"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        955
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 376,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "size": 376
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.js",
+      "size": 290,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 290
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        826
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "test.js",
+      "size": 257,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 257
+      },
+      "chunkNames": [
+        "test"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        43
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 120,
+      "sizes": {
+        "javascript": 120
+      },
+      "names": [
+        "test"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~shared"
+      ],
+      "files": [
+        "test.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "aad8ed60942e2cafe407",
+      "childrenByOrder": {},
+      "id": 43,
+      "siblings": [],
+      "parents": [
+        712,
+        955
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 120,
+          "sizes": {
+            "javascript": 120
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\test.js",
+          "name": "./src/test.js",
+          "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\test.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 604,
+            "resolving": 109,
+            "restoring": 0,
+            "building": 495,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 109,
+            "dependencies": 0
+          },
+          "id": 758,
+          "issuerId": null,
+          "chunks": [
+            43
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/test.js",
+              "loc": "test",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:0-21",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "test",
+          "request": "./src/test.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 544098,
+      "sizes": {
+        "javascript": 544098
+      },
+      "names": [
+        "shared"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~shared"
+      ],
+      "files": [
+        "shared.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "9e94f99311dcfe660136",
+      "childrenByOrder": {},
+      "id": 712,
+      "siblings": [
+        955
+      ],
+      "parents": [],
+      "children": [
+        43,
+        826
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 544098,
+          "sizes": {
+            "javascript": 544098
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "name": "./node_modules/lodash/lodash.js",
+          "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 1,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 1
+          },
+          "id": 486,
+          "issuerId": null,
+          "chunks": [
+            712
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "provided",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "5:12-13",
+              "moduleId": 579,
+              "resolvedModuleId": 579
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "provided",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "6:12-13",
+              "moduleId": 579,
+              "resolvedModuleId": 579
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\test.js",
+              "module": "./src/test.js",
+              "moduleName": "./src/test.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\test.js",
+              "resolvedModule": "./src/test.js",
+              "type": "provided",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "5:12-13",
+              "moduleId": 758,
+              "resolvedModuleId": 758
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "439:50-57",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "439:62-78",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "439:82-89",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "442:63-69",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "442:74-80",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "442:93-99",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "17209:7-11",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "shared",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 17209:7-11",
+            "CommonJS bailout: exports is used directly at 439:50-57",
+            "CommonJS bailout: exports is used directly at 439:82-89",
+            "Statement (ExpressionStatement) with side effects in source code at 9:1-17209:14",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "shared",
+          "request": "lodash"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 293,
+      "sizes": {
+        "javascript": 293
+      },
+      "names": [
+        "index"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~shared"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "fee35124533f5d4d7439",
+      "childrenByOrder": {},
+      "id": 826,
+      "siblings": [],
+      "parents": [
+        712,
+        955
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 293,
+          "sizes": {
+            "javascript": 293
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 734,
+            "resolving": 116,
+            "restoring": 0,
+            "building": 618,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 116,
+            "dependencies": 0
+          },
+          "id": 579,
+          "issuerId": null,
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "index",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 5:0-48"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/index.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 2808,
+      "sizes": {
+        "runtime": 2808
+      },
+      "names": [
+        "runtime~shared"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~shared"
+      ],
+      "files": [
+        "runtime~shared.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "555f94fc40b1664fdcd1",
+      "childrenByOrder": {},
+      "id": 955,
+      "siblings": [
+        712
+      ],
+      "parents": [],
+      "children": [
+        43,
+        826
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 851,
+          "sizes": {
+            "runtime": 851
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/chunk loaded",
+          "name": "webpack/runtime/chunk loaded",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            955
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            955
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            955
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1525,
+          "sizes": {
+            "runtime": 1525
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            955
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 123,
+          "sizes": {
+            "runtime": 123
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            955
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "shared",
+          "request": "lodash"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 544098,
+      "sizes": {
+        "javascript": 544098
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+      "name": "./node_modules/lodash/lodash.js",
+      "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 1,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 1
+      },
+      "id": 486,
+      "issuerId": null,
+      "chunks": [
+        712
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "provided",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "5:12-13",
+          "moduleId": 579,
+          "resolvedModuleId": 579
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "provided",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "6:12-13",
+          "moduleId": 579,
+          "resolvedModuleId": 579
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\test.js",
+          "module": "./src/test.js",
+          "moduleName": "./src/test.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\test.js",
+          "resolvedModule": "./src/test.js",
+          "type": "provided",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "5:12-13",
+          "moduleId": 758,
+          "resolvedModuleId": 758
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:50-57",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:62-78",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:82-89",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:63-69",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:74-80",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:93-99",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\lodash\\lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "17209:7-11",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "shared",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 17209:7-11",
+        "CommonJS bailout: exports is used directly at 439:50-57",
+        "CommonJS bailout: exports is used directly at 439:82-89",
+        "Statement (ExpressionStatement) with side effects in source code at 9:1-17209:14",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 120,
+      "sizes": {
+        "javascript": 120
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\test.js",
+      "name": "./src/test.js",
+      "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\test.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 604,
+        "resolving": 109,
+        "restoring": 0,
+        "building": 495,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 109,
+        "dependencies": 0
+      },
+      "id": 758,
+      "issuerId": null,
+      "chunks": [
+        43
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/test.js",
+          "loc": "test",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:0-21",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 293,
+      "sizes": {
+        "javascript": 293
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 734,
+        "resolving": 116,
+        "restoring": 0,
+        "building": 618,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 116,
+        "dependencies": 0
+      },
+      "id": 579,
+      "issuerId": null,
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "index",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 5:0-48"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 124,
+      "sizes": {
+        "javascript": 124
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\msg.js",
+      "name": "./src/msg.js",
+      "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\msg.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 734,
+            "resolving": 116,
+            "restoring": 0,
+            "building": 618,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 116,
+            "dependencies": 0
+          },
+          "id": 579
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 9,
+        "resolving": 2,
+        "restoring": 0,
+        "building": 7,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 2,
+        "dependencies": 0
+      },
+      "id": null,
+      "issuerId": 579,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\babel-loader\\lib\\index.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./msg",
+          "loc": "4:0-26",
+          "moduleId": 579,
+          "resolvedModuleId": 579
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not in any chunk"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 851,
+      "sizes": {
+        "runtime": 851
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/chunk loaded",
+      "name": "webpack/runtime/chunk loaded",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        955
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        955
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        955
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1525,
+      "sizes": {
+        "runtime": 1525
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        955
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 123,
+      "sizes": {
+        "runtime": 123
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        955
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        826
+      ],
+      "assets": [
+        {
+          "name": "index.js",
+          "size": 290
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 290,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "test": {
+      "name": "test",
+      "chunks": [
+        43
+      ],
+      "assets": [
+        {
+          "name": "test.js",
+          "size": 257
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 257,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "shared": {
+      "name": "shared",
+      "chunks": [
+        955,
+        712
+      ],
+      "assets": [
+        {
+          "name": "runtime~shared.js",
+          "size": 1146
+        },
+        {
+          "name": "shared.js",
+          "size": 70531
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 71677,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        826
+      ],
+      "assets": [
+        {
+          "name": "index.js",
+          "size": 290
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 290,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "test": {
+      "name": "test",
+      "chunks": [
+        43
+      ],
+      "assets": [
+        {
+          "name": "test.js",
+          "size": 257
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 257,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "shared": {
+      "name": "shared",
+      "chunks": [
+        955,
+        712
+      ],
+      "assets": [
+        {
+          "name": "runtime~shared.js",
+          "size": 1146
+        },
+        {
+          "name": "shared.js",
+          "size": 70531
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 71677,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [
+    {
+      "message": "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/",
+      "stack": "NoModeWarning: configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/\n    at C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\webpack\\lib\\WarnNoModeSetPlugin.js:20:30\n    at Hook.eval [as call] (eval at create (C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\tapable\\lib\\HookCodeFactory.js:19:10), <anonymous>:21:1)\n    at Hook.CALL_DELEGATE [as _call] (C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\tapable\\lib\\Hook.js:14:14)\n    at Compiler.newCompilation (C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\webpack\\lib\\Compiler.js:1033:30)\n    at C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\webpack\\lib\\Compiler.js:1076:29\n    at Hook.eval [as callAsync] (eval at create (C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\tapable\\lib\\Hook.js:18:14)\n    at Compiler.compile (C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\webpack\\lib\\Compiler.js:1071:28)\n    at C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\webpack\\lib\\Compiler.js:498:12\n    at Compiler.readRecords (C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\webpack\\lib\\Compiler.js:910:11)"
+    }
+  ],
+  "warningsCount": 1,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "b8925cb76899ebcabd7b",
+      "version": "5.41.0",
+      "time": 118,
+      "builtAt": 1624931643545,
+      "publicPath": "",
+      "outputPath": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1007,
+          "sizes": {
+            "javascript": 567,
+            "runtime": 440
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "a748ce866bb14b1f1b5e",
+          "childrenByOrder": {},
+          "id": 563,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 490,
+              "sizes": {
+                "javascript": 490
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 0,
+                "resolving": 0,
+                "restoring": 0,
+                "building": 0,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 0,
+                "dependencies": 0
+              },
+              "id": 893,
+              "issuerId": null,
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:155-169",
+                  "moduleId": 893,
+                  "resolvedModuleId": 893
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:155-169",
+                "Statement (VariableDeclaration) with side effects in source code at 1:0-155",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 77,
+              "sizes": {
+                "javascript": 77
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 30,
+                "resolving": 8,
+                "restoring": 0,
+                "building": 21,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 8,
+                "dependencies": 0
+              },
+              "id": 295,
+              "issuerId": null,
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 27,
+              "sizes": {
+                "runtime": 27
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 325,
+              "sizes": {
+                "runtime": 325
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/require chunk loading",
+              "name": "webpack/runtime/require chunk loading",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 30,
+            "resolving": 8,
+            "restoring": 0,
+            "building": 21,
+            "integration": 0,
+            "storing": 1,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 8,
+            "dependencies": 0
+          },
+          "id": 295,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 490,
+          "sizes": {
+            "javascript": 490
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+          "nameForCondition": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": 893,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModuleIdentifier": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:155-169",
+              "moduleId": 893,
+              "resolvedModuleId": 893
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\PROJETOS\\webpack-from-basic-to-advanced-micro-frontend\\advanced-webpack-features\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:155-169",
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-155",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 325,
+          "sizes": {
+            "runtime": 325
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
